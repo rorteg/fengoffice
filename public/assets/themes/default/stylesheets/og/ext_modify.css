@@ -1,0 +1,84 @@
+/*--- fix width of date pickers in IE8 ---*/
+.x-date-menu {
+	width: 175px !important;
+}
+
+/*--- layout.css ---*/
+.x-layout-collapsed{
+    border:0px;
+}
+
+/*--- panel.css ---*/
+#tabs-panel .x-panel-body-noheader, .x-panel-mc .x-panel-body {
+    border-top:0px;
+}
+.x-panel-body{
+	background-color: #F0F0F0;	
+}
+
+/*--- tabs.css ---*/
+.x-tab-strip .x-tab-with-icon span.x-tab-strip-text {
+	height:14px;
+}
+
+.x-tab-panel-header, .x-tab-panel-footer {
+	border: 0px;
+}
+.x-tab-panel-header {
+	border: 0px;
+	padding-bottom: 0px;
+}
+.x-tab-panel-body {
+    border: 0px;
+}
+
+strong{font-weight:bold;}
+
+
+.og-content-panel .x-toolbar {
+	background: #F0F0F0;
+	border-top: 0px none;
+	padding-top:5px;
+}
+
+.og-content-panel .x-tree .x-panel-tbar .x-toolbar {
+	border-top: 1px solid #99BBE8;
+}
+
+
+.og-content-panel .x-panel-bbar .x-toolbar {
+	background: transparent;
+	border-top: 0px none;
+}
+
+.x-tbar-page-number{
+	padding-left:3px;
+	padding-top:1px;
+	padding-bottom:1px;
+	height:15px;
+}
+
+/* Sets the width of a checkbox to 16 in a checkbox tree*/
+input.x-tree-node-cb {
+	width:16px;
+	margin-top:1px;
+}
+.ico-none {
+	background-image: url(../../images/s.gif) !important;
+	width:1px;
+	height:1px;
+}
+
+.ext-safari .x-form-field-wrap .x-form-trigger {
+	right: auto;
+}
+
+.x-form-field-wrap {
+	width: auto !important;
+	padding-right: 17px;
+}
+
+.x-resizable-over .x-resizable-handle, .x-resizable-pinned .x-resizable-handle {
+	opacity:0.5;
+	filter: alpha(opacity = 50);
+}

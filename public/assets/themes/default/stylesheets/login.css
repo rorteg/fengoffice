@@ -1,0 +1,88 @@
+
+
+/* Login classes */
+
+.t1 {
+	background: transparent url(../images/layout/login/top1.png) no-repeat scroll bottom right;	
+	height:70px;
+	width:40px;
+}
+
+.t2 {
+	background: transparent url(../images/layout/login/top2.png) no-repeat scroll bottom left;	
+	width:35px;
+}
+
+.t3 {
+	background: transparent url(../images/layout/login/top3.png) repeat-x scroll bottom left;	
+	width:316px;
+}
+
+.t4 {
+	background: transparent url(../images/layout/login/top4.png) no-repeat scroll bottom right;
+	width:10px;
+	font-size:5px;
+}
+
+.t5 {
+	background: transparent url(../images/layout/login/top5.png) no-repeat scroll bottom left;	
+	width:40px;
+}
+
+
+.mt1 {
+	background: transparent url(../images/layout/login/mt1.png) no-repeat scroll top right;	
+	height:19px;
+}
+
+.m1 {
+	background: transparent url(../images/layout/login/m1.png) repeat-y scroll bottom right;	
+}
+
+.m5 {
+	background: transparent url(../images/layout/login/m5.png) repeat-y scroll bottom left;	
+}
+
+.title {
+	padding-top:6px;
+	padding-left:10px;
+	text-align:left;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;	
+}
+
+
+
+.b1 {
+	background: transparent url(../images/layout/login/b1.png) no-repeat scroll top right;
+	height:70px;
+}
+
+.b2 {
+	background: transparent url(../images/layout/login/b2.png) no-repeat scroll top left;
+}
+
+.b3 {
+	background: transparent url(../images/layout/login/b3.png) repeat-x scroll top left;	
+}
+
+.b4 {
+	background: transparent url(../images/layout/login/b4.png) no-repeat scroll top right;
+	font-size:5px;
+}
+
+.b5 {
+	background: transparent url(../images/layout/login/b5.png) no-repeat scroll top left;
+}
+
+.loginBody {
+	background: #72BF44 url(../images/layout/login/background.png) repeat-x scroll 150px 0;
+}
+
+.loginContents {
+	background-color: white;
+}
+
+
+

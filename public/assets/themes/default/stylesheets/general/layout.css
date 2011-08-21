@@ -1,0 +1,180 @@
+#loading {
+	font-size: 20px;
+	position: absolute;
+	left: 45%;
+	top: 45%;
+}
+
+#header {
+	/*border-bottom: 1px solid black;*/
+	background-color: white;
+	height: 55px;
+	/*border-bottom: 1px solid #8888EE;*/
+	overflow: hidden;
+}
+#content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#pageContent {
+	min-height: 1px;
+}
+#footer {
+	height: 20px;
+	color: #666;
+	font-size: 9px;
+	overflow: hidden;
+}
+#helpFrame {
+	border: 0px;
+}
+.menuCont {
+	/*height: 100%;*/
+	font-size: 11px;
+	/*padding: 5px 0px 5px 22px;*/
+}
+
+.ext-strict .ext-ie6 .x-layout-split{
+	background-color: #dfe8f6; /* fixes split panels in ie6 */
+}
+.toggle_collapsed {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2728px !important;
+	padding-left: 20px;
+	cursor: pointer;
+}
+.toggle_expanded {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2354px !important;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+#chrome_main2 /*Calendar*/ {
+	border-color: rgb(195, 217, 255); 
+	background: rgb(195, 217, 255) none repeat scroll 0% 50%;
+}
+
+
+
+
+.adminAddProject .contactsTable {
+	width:100%;
+	max-width:500px;
+}
+
+.adminAddProject .contactsTable .actions {
+	text-align:right;
+}
+
+.adminAddProject .contactsTable .contact_name {
+	font-weight:bold;
+	padding-left:18px;
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1430px !important;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+
+
+.asc {
+	max-width:500px;
+	border:2px solid #AAA;
+	padding:10px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.asc .header{
+}
+
+.asc .header .title{
+	font-weight:bold;
+}
+
+.asc .body .results{
+	width:100%;
+	margin-top:5px;
+}
+
+.asc .body .results .actions{
+	text-align:right;
+}
+
+.asc .body .results .contact_name{
+	font-weight:bold;
+}
+
+
+.contextualHelp {
+	padding:4px 10px;
+	background:#FFF2BF none repeat scroll 0 0;
+	color: #5F4D06;
+	border: 1px dashed #EFCB3B;
+}
+
+.contextualHelp .internalLink {
+	font-weight: bold;
+	color: #DFB200;
+}
+
+.contextualHelp .internalLink:hover {
+	color:#FF5A00;
+}
+
+/** message div **/
+#msg-div {
+	position: absolute;
+	left: 35%;
+	width: 30%;
+	z-index:20000;
+	cursor: pointer;
+}
+#msg-div h3 {
+	float: left;
+	margin-right: 5px;
+}
+#msg-div .err h3 {
+	color: #AA0000;
+}
+#msg-div .reminder h3 {
+	color: #008800;
+}
+.og-box-tl {
+	background: url(../../images/box/corners.png) no-repeat top left;
+	padding-left: 4px;
+}
+.og-box-tc {
+	padding-top: 4px;
+	background: #fffbbb;
+	border-top: 1px solid #E1B269;
+}
+.og-box-tr {
+	background: url(../../images/box/corners.png) no-repeat top right;
+	padding-right: 4px;
+}
+.og-box-ml {
+	padding-left: 4px;
+	background: #fffbbb;
+	border-left: 1px solid #E1B269;
+}
+.og-box-mc {
+	background: #fffbbb;
+}
+.og-box-mr {
+	padding-right: 4px;
+	background: #fffbbb;
+	border-right: 1px solid #E1B269;
+}
+.og-box-bl {
+	padding-left: 4px;
+	background:transparent url(../../images/box/corners.png) no-repeat scroll bottom left;zoom:1;
+	
+}
+.og-box-bc {
+	padding-bottom: 4px;
+	background: #fffbbb;
+	border-bottom: 1px solid #E1B269;
+}
+.og-box-br {
+	padding-right: 4px;
+	background:transparent url(../../images/box/corners.png) repeat bottom right;zoom:1;
+}

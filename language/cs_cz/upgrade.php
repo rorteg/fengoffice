@@ -1,0 +1,18 @@
+<?php return array(
+	'upgrade' => 'Inovace',
+	'upgrade from' => 'Inovace z',
+	'upgrade to' => 'Inovace na',
+	'already upgraded' => 'Právě máte poslední možnou verzi.',
+	'back to fengoffice' => 'Zpět na Feng Office',
+	'all rights reserved' => 'Všechna práva rezerována',
+	'upgrade process log' => 'Log procesu inovace',
+	'upgrade fengoffice' => 'Povýšit Feng Office',
+	'upgrade your fengoffice installation' => 'Inovace Feng Office instalace',
+	'error upgrade version must be specified' => 'Není specifikovaná žádná verze. Nelze pokračovat s automatickou inovací. Prosím, zkuste to znovu později nebo zkuste raději inovaci ruční.',
+	'error upgrade version not found' => 'Byla určena neplatná verze  ({0}). Nelze pokračovat s automatickou inovací. Prosím, zkuste to znovu později nebo zkuste raději inovaci ruční.',
+	'error upgrade invalid zip url' => 'Neplatná URL adresa této verze. Nelze pokračovat s automatickou inovací. Prosím, zkuste to znovu později nebo zkuste raději inovaci ruční.',
+	'error upgrade cannot open zip file' => 'Nelze otevřít zazipovaný soubor s novou verzí. Nelze pokračovat s automatickou inovací. Prosím, zkuste to znovu později nebo zkuste raději ruční inovaci.',
+	'upgrade from to' => 'Inovace z {0} na {1}',
+	'upgrade warning' => 'Varování',
+	'upgrade warning desc' => 'Vaší instalaci, prosím, před inovací <a href="{0}" target="_blank">ZÁLOHUJTE</a>!',
+); ?>

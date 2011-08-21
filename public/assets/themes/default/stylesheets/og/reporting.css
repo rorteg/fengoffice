@@ -1,0 +1,32 @@
+.report_selected_menu {
+	background-image: url(../../images/layout/selected_report_menu.png);
+	background-repeat: no-repeat;
+	padding-left: 12px;
+	height:40px;
+	font-weight:bold;
+	font-size:120%;
+	padding-top:5px;
+}
+
+.report_unselected_menu {
+	padding-left: 12px;
+	height:28px;
+	font-weight:bold;
+	font-size:100%;
+	padding-top:3px;
+}
+
+.inner_report_menu_div {
+	padding:10px;
+}
+
+.report_header {
+	font-size:120%;
+	font-weight:bold;
+	border-bottom:1px solid #AAAAAA;
+	color: #666666;
+}
+
+.reportConditionDD {
+	min-width:120px;
+}

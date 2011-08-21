@@ -1,0 +1,11 @@
+.complete-task-bck {
+	background-color: #D1E8D3;
+}
+
+.incomplete-task-bck {
+	background-color: #FFF2BF;
+}
+
+.ico-gantt {
+	background:url("../../images/16x16/gantt.png") no-repeat scroll transparent !important;
+}

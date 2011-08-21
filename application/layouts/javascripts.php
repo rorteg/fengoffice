@@ -1,0 +1,53 @@
+<?php
+
+if (defined('DEBUG_JS') && DEBUG_JS) {
+    return array(
+        'wztooltip/wz_tooltip.js',
+        'extjs/adapter/ext/ext-base-debug.js',
+        'extjs/ext-all-debug.js',
+        'og/extfix.js',
+        'og/Helpers.js',
+        'og/og.js',
+        'og/InfinitePagingToolbar.js',
+        'og/HttpProvider.js',
+        'og/GooProxy.js',
+        'og/QuickAdd.js',
+        'og/WorkspaceUtils.js',
+        'og/ExtendedDialog.js',
+        'og/Sound.js',
+        'og/LoginDialog.js',
+        'og/HtmlPanel.js',
+        'og/WorkspacePanel.js',
+        'og/TagPanel.js',
+        'og/TagMenu.js',
+        'og/ContentPanelLayout.js',
+        'og/ContentPanel.js',
+        'og/layout.js',
+    	'og/EventPopUp.js',
+    );
+}
+return array(
+        'wztooltip/wz_tooltip.js',
+        'extjs/adapter/ext/ext-base.js',
+        'extjs/ext-all.js',
+        'og/extfix.js',
+        'og/Helpers.js',
+        'og/og.js',
+        'og/InfinitePagingToolbar.js',
+        'og/HttpProvider.js',
+        'og/GooProxy.js',
+        'og/QuickAdd.js',
+        'og/WorkspaceUtils.js',
+        'og/ExtendedDialog.js',
+        'og/Sound.js',
+        'og/LoginDialog.js',
+        'og/HtmlPanel.js',
+        'og/WorkspacePanel.js',
+        'og/TagPanel.js',
+        'og/TagMenu.js',
+        'og/ContentPanelLayout.js',
+        'og/ContentPanel.js',
+        'og/layout.js',
+		'og/EventPopUp.js',
+);
+?>

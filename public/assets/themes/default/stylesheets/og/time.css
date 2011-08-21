@@ -1,0 +1,43 @@
+.TMTimespanHeader {
+	font-size:120%;
+	font-weight:bold;
+	color:white;
+	width:100%;
+	background-color:#80AEF0;
+}
+
+.TMTimespanEditHeader {
+	font-size:120%;
+	font-weight:bold;
+	color:white;
+	width:100%;
+	background-color:#F7CD4D;
+}
+
+.TMActiveTasksHeader {
+	font-size:120%;
+	font-weight:bold;
+	color:white;
+	width:100%;
+	background-color:#F7CD4D;
+	padding:3px 7px;
+}
+
+.TMTimespanAddNew {
+	color:#333;
+	background-color: #DAE3F0;
+	width:100%;
+}
+
+.TMTimespanEdit {
+	color:#333;
+	background-color: #FFEE8F;
+}
+
+.TMTimespanContents {
+	color:#666;
+}
+
+.TMActiveTasksContents {
+	color:#666;
+}

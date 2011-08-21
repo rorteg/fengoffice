@@ -1,0 +1,250 @@
+.endSeparatorDiv {
+	border-bottom:#CCC solid 1px;
+	padding-bottom:8px;
+	margin-bottom:8px;
+}
+
+
+.dashWorkspace {
+  	padding-bottom: 4px;
+  	border-bottom: 1px solid #AAA;
+	width: 100%;
+	color: #666;
+	margin-bottom: 10px;
+	padding-top:10px;
+}
+
+.dashWorkspace .name{
+  	font-size: 200%;
+  	font-weight: bolder;
+}
+
+.dashWorkspace .description{
+}
+
+.dashActions {
+	position: absolute;
+	top: 19px;
+	right: 30px;	
+}
+
+.dashActions .viewAsList {
+	backgroud-position: 0pt 2px;
+	height: 16px;
+	padding-left:20px;
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4069px !important;
+	cursor: pointer;		
+}
+
+.dashHeader {
+	padding:2px 10px;	
+  	border-bottom: 1px solid;
+}
+
+.dashHeader .dashTitle {
+  	font-size: 120%;
+  	font-weight: bolder;
+  	border-bottom: 0px solid;
+}
+
+.dashSubtitle {
+  	font-weight: bolder;
+  	padding-top: 10px;
+  	padding-bottom: 2px;
+  	border-bottom: 1px solid #AAA;
+}
+
+.dashAltRow {
+	background-color:#ECEFF7;	
+}
+
+
+/*----------------------------------------
+		Messages
+----------------------------------------*/
+
+.dashMessages .dashHeader{
+	color: rgb(101,82,5);
+	background: rgb(246,214,78);
+	border-color: rgb(201,163,10);
+}
+
+.dashMessages .coViewBody {
+	background: #FFF2BF;	
+	color: rgb(101,82,5);
+}
+
+.dashMessages .dashAltRow {
+	background-color:#FFE099;	
+}
+
+.dashMessages .internalLink {	
+	color: rgb(101,82,5);
+}
+
+/*----------------------------------------
+		Comments
+----------------------------------------*/
+
+.dashComments .dashHeader{
+	color: rgb(90,82,101);
+	background: rgb(222,214,246);
+	border-color: rgb(180,163,201);
+}
+
+.dashComments .coViewBody {
+	background: #FFFFFFF;	
+	color: rgb(90,82,101);
+}
+
+.dashComments .dashAltRow {
+	background-color:#EFE0FF;	
+}
+
+.dashComments .internalLink {	
+	color: rgb(90,82,101);
+}
+
+.dashComments .previewText {
+	color: rgb(136, 136, 136);
+}
+
+
+/*----------------------------------------
+		Late tasks and milestones
+----------------------------------------*/
+
+.dashLate .dashHeader{
+	color: white;
+	background: #DD4444;
+	border-color: #CC1111;
+}
+
+.dashLate .dashAltRow {
+	background-color:#FBEFEF;	
+}
+
+
+/*----------------------------------------
+		Pending tasks
+----------------------------------------*/
+
+.dashPendingTasks .dashHeader{
+	color: white;
+	background: #717FA1;
+	border-color: #596480;
+}
+
+
+/*----------------------------------------
+		Calendar
+----------------------------------------*/
+
+.dashCalendar .dashHeader {
+	color: white;
+	background: #717FA1;
+	border-color: #596480;
+}
+
+/*----------------------------------------
+		Getting Started
+----------------------------------------*/
+
+.dashGettingStarted .dashHeader {
+	color: white;
+	background: #717FA1;
+	border-color: #596480;
+}
+
+/*----------------------------------------
+		Documents
+----------------------------------------*/
+
+.dashDocuments .dashHeader{
+	color: white;
+	background: #717FA1;
+	border-color: #596480;
+}
+
+
+/*----------------------------------------
+		Tasks in progress
+----------------------------------------*/
+
+.dashTasksInProgress .dashHeader{
+	color: white;
+	background: #F68D4D;
+	border-color: #DB7D45;
+	padding-left:34px;
+	background-image: url(../../images/16x16/time.png) !important;
+	background-repeat:no-repeat;
+	background-position: 8px 4px;
+}
+
+/*----------------------------------------
+		Unread emails
+----------------------------------------*/
+
+.dashUnreadEmails .dashAltRow {
+	background-color:#F0F2FF;	
+}
+
+.dashUnreadEmails .dashHeader{
+	color: white;
+	background: #B4BFFF;
+	border-color: #98A8FF;
+}
+
+
+/*----------------------------------------
+		Charts
+----------------------------------------*/
+
+.dashChart .dashHeader{
+	color: white;
+	background: #717FA1;
+	border-color: #596480;
+}
+
+/*----------------------------------------
+		Workspace Info
+----------------------------------------*/
+
+.dashInfo .dashHeader{
+	color: white;
+	background: #9583BF;
+	border-color: #69598F;
+}
+
+/*----------------------------------------
+		Activity
+----------------------------------------*/
+
+.dashActivity .dashAltRow {
+	background-color:#E1E9FF;		
+}
+
+.dashActivity .dashHeader{
+	color: white;
+	background: #496AB9;
+	border-color: #496AB9;
+}
+
+.dashActivity .avatar{
+	border: 0px none;
+	height: 26px;
+	width: 26px;
+	padding: 3px;
+}
+
+.dashActivity .groupTitle{
+	font-size: 150%;
+	border-bottom: 1px solid graytext;
+	vertical-align: middle;
+	height: 25px;
+	font-weight: bold;
+	color: navy;
+}
+
+
+

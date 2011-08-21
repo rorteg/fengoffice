@@ -1,0 +1,51 @@
+#searchForm {
+  border-bottom: 1px solid #ccc;
+  background: #F0F0F0;
+  padding: 0 10px 10px 10px;
+  text-align: center;
+}
+
+.searchGroup {
+	width:100%;
+	text-align:center;
+	padding-top:25px;
+}
+
+.searchDescription {
+	padding-top: 10px;
+	text-align:center; 
+	/*font-size:120%; */
+	font-weight:bold;
+	width:100%;
+	color: #888;
+}
+
+.searchHeader {
+	width:100%;
+	max-width:800px;
+	color: #666;
+	border-bottom:1px solid #BBB;
+	text-align:left;
+	padding-bottom:2px;
+}
+
+.searchResults {
+	width:100%;
+	max-width:800px;
+	text-align:left;
+	color: #888;
+}
+
+.searchGroupTitle {
+	color: #666;
+	font-size:120%;
+	font-weight:bold;
+}
+
+.searchAltRow {
+	background-color:#F0F0F0;
+}
+
+.searchRow {
+	background-color:#F9F9F9;
+}

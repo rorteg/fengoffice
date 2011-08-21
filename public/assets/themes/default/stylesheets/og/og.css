@@ -1,0 +1,936 @@
+#img-chooser-dlg {
+	z-index: 1100000000 !important;
+}
+
+.og-disabled {
+	opacity: 0.4;
+	filter: alpha(opacity=0.4);
+}
+
+/** loading indicator **/
+.og-loading {
+	position: absolute;
+	left: 45%;
+	top: 27px;
+	zIndex: 1000000;
+	cursor: pointer;
+}
+/** /loading indicator **/
+
+/** autoCompleter **/
+.autoCompleter .selected {
+	background-color: #8888FF;
+	
+}
+.autoCompleter * {
+	padding: 0 20px;
+}
+.autoCompleter {
+	border: 1px solid #8888FF;
+	background-color: white;
+}
+
+.dash-expander {
+	height:16px;
+	width:16px;
+	cursor:pointer;
+}
+
+.project-replace {
+	display: none;	
+}
+/** /autoCompleter **/
+
+.img-grid-drag {
+	background: transparent url(../../images/rx/grid_drag.png) repeat-y !important;
+	width:10px;
+	height:14px;
+	cursor: move;
+}
+
+.ico-unknown {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3871px !important;
+}
+
+.ico-arrowleft {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -550px !important;
+}
+.ico-2arrowleft {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 0 !important;
+}
+.ico-arrowright {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -572px !important;
+}
+.ico-2arrowright {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -22px !important;
+}
+.ico-archive-obj {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -528px !important;
+}
+.ico-unarchive-obj {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3805px !important;
+	padding-top:1px !important;
+}
+.ico-reporting {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3035px !important;
+}
+.ico-reporting-layout {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3033px !important;
+}
+.ico-task-start {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3519px !important;
+}
+.ico-task-end {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3497px !important;
+}
+.ico-recurrent {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2904px !important;
+}
+.ico-template {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3563px !important;
+}
+.ico-account {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -43px !important;
+}
+.ico-add {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -65px !important;
+}
+.ico-addtag {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3409px !important;;
+}
+.ico-administration {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -86px !important;
+}
+.ico-attachment {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -594px !important;
+}
+.ico-sent {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2288px !important;
+}
+.ico-reply {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2244px !important;
+}
+.ico-back {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -638px !important;
+}
+.ico-chart {
+	background-image: url(../../images/16x16/chart.png) !important;
+}
+.ico-checkin {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -682px !important;
+}
+.ico-checkout {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -704px !important;
+}
+.ico-classify {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -725px !important;
+}
+.ico-unclassify {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3827px !important;
+}
+.ico-complete {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1408px !important;
+}
+.ico-reopen {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2991px !important;
+}
+.ico-overview {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2526px !important;	
+}
+.ico-contacts-layout {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1428px !important;
+}
+.ico-contact, .ico-contacts {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1430px !important;
+}
+.ico-companies-layout {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1386px !important;
+}
+.ico-company, .ico-companies {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1386px !important;
+}
+.ico-dash-expanded {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1518px !important;
+}
+.ico-dash-collapsed {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1496px !important;
+}
+.ico-delete {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1540px !important;
+}
+.ico-doc {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1606px !important;
+}
+.ico-download {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1672px !important;
+}
+.ico-edit {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2420px !important;
+}
+.ico-emails-layout {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1692px !important;
+}
+.ico-email, .ico-emails, .ico-email_menu {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1694px !important;
+}
+.ico-check_mails {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2222px !important;
+}
+.ico-reply-all {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2266px !important;
+}
+.ico-forward {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2112px !important;
+}
+.ico-mail-mark-unread, .ico-mark-as-unread {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2200px !important;
+}
+.ico-mail-mark-read, .ico-mark-as-read {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2156px !important;
+}
+.ico-mail-mark-spam {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2178px !important;
+}
+.ico-mail-mark-ham {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2134px !important;
+}
+.ico-select {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3189px !important;
+}
+.ico-empty {
+	background-image: url(../../images/s.gif) !important;
+}
+.ico-calendar-layout {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -658px !important;
+}
+.ico-event, .ico-events, .ico-calendar {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -660px !important;
+}
+.ico-calendar-month {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4091px !important;
+}
+.ico-calendar-week {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4113px !important;
+}
+.ico-calendar-week5 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4135px !important;
+}
+.ico-documents {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1628px !important;
+}
+.ico-documents-layout {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1626px !important;
+}
+.ico-file_revision {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1782px !important;
+}
+.ico-help {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1892px !important;
+}
+.ico-hide_messages {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1914px !important;
+}
+.ico-locked {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2046px !important;
+}
+.ico-messages-layout {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2308px !important;
+}
+.ico-projectmessage, .ico-message, .ico-messages {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2310px !important;
+}
+.ico-comment {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1342px !important;
+}
+.ico-projectmilestone, .ico-milestone, .ico-milestones, .ico-template-milestone {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2332px !important;
+}
+.ico-urgent-milestone {
+	background-image: url(../../images/16x16/exclamation.png) !important;
+}
+.ico-webpages-layout {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4199px !important;
+}
+.ico-webpages, .ico-webpage, .ico-weblink, .ico-weblinks {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4201px !important;
+}
+.ico-linkedobjects {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2002px !important;
+}
+.ico-more {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2376px !important;
+}
+.ico-new {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -66px !important;
+}
+.ico-copy {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1474px !important;
+}
+.ico-password {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2552px !important;
+}
+.ico-permissions {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2596px !important;
+}
+.ico-picture {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2640px !important;
+}
+.ico-properties {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2816px !important;
+}
+.ico-prsn {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2838px !important;
+}
+.ico-refresh {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2925px !important;
+}
+.ico-rename {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2969px !important;
+}
+.ico-restore {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3849px !important;
+}
+.ico-revisions {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3057px !important;
+}
+.ico-search {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3167px !important;
+}
+.ico-slideshow {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3233px !important;
+}
+.ico-sprd {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3365px !important;
+}
+.ico-tag, .ico-tags {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3409px !important;
+}
+.ico-tasks-layout {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3539px !important;
+}
+.ico-task, .ico-tasks, .ico-template-task {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3541px !important;
+}
+.ico-task-high-priority {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3431px !important;
+}
+.ico-task-low-priority {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3453px !important;
+}
+.ico-time {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3651px !important;
+}
+.ico-time-layout {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3649px !important;
+}
+.ico-time-pause {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3673px !important;
+}
+.ico-time-play {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3695px !important;
+}
+.ico-time-stop {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3717px !important;
+}
+.ico-trash {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3761px !important;
+}
+.ico-undo {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3849px !important;
+}
+.ico-unlocked {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3893px !important;
+}
+.ico-upload {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3937px !important;
+}
+.ico-view_options {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4025px !important;
+}
+.ico-history {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1936px !important;
+}
+.ico-view-as-dashboard {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2310px !important;
+}
+.ico-warning32 {
+	background-image: url(../../images/32x32/warning.png) !important; 
+}
+.ico-project, .ico-workspace {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4223px !important;
+}
+.ico-workspaces-expand {
+	background-image: url(../../images/12x12/expand.png) !important;
+	padding-left: 15px !important;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.ico-workspaces-collapse {
+	background-image: url(../../images/12x12/collapse.png) !important;
+	padding-left: 13px;
+	background-position: 0 1px;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.ico-today {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3739px !important;
+}
+.ico-prevmonth {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2772px !important;
+}
+.ico-nextmonth {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2464px !important;
+}
+.ico-phone {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2618px !important;
+}
+.ico-fax {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1760px !important;
+}
+.ico-print {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2794px !important;
+}
+.ico-sort-alphabetical {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3277px !important;
+}
+.ico-sort-count {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3255px !important;
+}
+.ico-sort-asc {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3299px !important;
+}
+.ico-sort-desc {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3321px !important;
+}
+.ico-colorremember {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2947px !important;
+}
+.ico-zip-extract {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4267px !important;
+}
+.ico-zip-add {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4245px !important;
+}
+.ico-share {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3211px !important;
+}
+.ico-up {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3915px !important;
+}
+.ico-down {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1650px !important;
+}
+.ico-rss {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3079px !important;
+}
+.ico-open-link {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2508px !important;
+}
+.ico-expand {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1738px !important;
+}
+.ico-collapse {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -748px !important;
+}
+
+
+
+.ico-large-billing {
+	background: transparent url(../../images/48x48/all_48_48_sprite.png) no-repeat scroll 0 -1026px !important;
+}
+.ico-large-configuration {
+	background: transparent url(../../images/48x48/all_48_48_sprite.png) no-repeat scroll 0 -1300px !important;
+}
+.ico-large-custom-properties {
+	background: transparent url(../../images/48x48/all_48_48_sprite.png) no-repeat scroll 0 -1570px !important;
+}
+.ico-large-object-subtypes {
+	background: transparent url(../../images/48x48/all_48_48_sprite.png) no-repeat scroll 0 -2650px !important;
+}
+.ico-large-group {
+	background: transparent url(../../images/48x48/all_48_48_sprite.png) no-repeat scroll 0 -2164px !important;
+}
+.ico-large-tools {
+	background: transparent url(../../images/48x48/all_48_48_sprite.png) no-repeat scroll 0 -3352px !important;
+}
+.ico-large-upgrade {
+	background: transparent url(../../images/48x48/all_48_48_sprite.png) no-repeat scroll 0 -3514px !important;
+}
+.ico-large-cron {
+	background: transparent url(../../images/48x48/all_48_48_sprite.png) no-repeat scroll 0 -1516px !important;
+}
+.ico-large-workspace {
+	background: transparent url(../../images/48x48/all_48_48_sprite.png) no-repeat scroll 0 -3946px !important;
+}
+
+
+.link-ico {
+	height: 16px;
+	background-repeat: no-repeat;
+	padding-left:23px;
+	padding-bottom:4px;
+}
+
+.clico {
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+}
+
+.db-ico {
+	height: 16px;
+	width: 16px;
+	background-repeat: no-repeat;
+}
+
+.board-ico {
+	height: 18px;
+	width: 18px;
+	background-repeat: no-repeat;
+	background-position: 2px 2px;
+}
+
+.x-grid3-col-icon {
+	padding: 1px 3px;
+}
+
+.x-tab-strip-active {
+	cursor: pointer !important;
+}
+.x-tab-strip-active * {
+	cursor: pointer !important;
+}
+.ws-color-chooser, .ws-color-chooser-selected {
+	cursor: pointer;
+	margin-left: 3px;
+}
+.ws-color-chooser {
+	border: 2px solid transparent;
+}
+.ws-color-chooser-selected {
+	border: 2px solid deepskyblue;
+}
+.x-grid3-scroller .inner-message {
+	position: absolute;
+	width: 100%;
+	padding-top: 10px;
+	color: #777777;
+	font-size: 14px;
+	text-align: center;
+}
+
+.subwscrumbs {
+	font-weight: bold;
+	padding-bottom:2px;
+}
+
+.og-wscont {
+	/*border:1px solid;	*/
+}
+
+.og-wsname {
+	color: #777777;
+	font-size: 9px;
+	padding-left:1px;
+	padding-right:1px;
+}
+
+.og-wsname-color-0 {
+	border-color: #777777;
+	background-color: #EEEEEE;
+	color: #777777;
+}
+
+.og-wsname-color-1 {
+	color: #DEE5F2;
+	background-color: #5A6986;
+	border-color: #5A6986;
+}
+
+.og-wsname-color-2 {
+	color: #E0ECFF;
+	background-color: #206CE1;
+	border-color: #206CE1;
+}
+
+.og-wsname-color-3 {
+	color: #DFE2FF;
+	background-color: #0000CC;
+	border-color: #0000CC;
+}
+
+.og-wsname-color-4 {
+	color: #E0D5F9;
+	background-color: #5229A3;
+	border-color: #5229A3;
+}
+
+.og-wsname-color-5 {
+	color: #FDE9F4;
+	background-color: #854F61;
+	border-color: #854F61;
+}
+
+.og-wsname-color-6 {
+	color: #FFE3E3;
+	background-color: #CC0000;
+	border-color: #CC0000;
+}
+
+.og-wsname-color-7 {
+	color: #FFF0E1;
+	background-color: #EC7000;
+	border-color: #EC7000;
+}
+
+.og-wsname-color-8 {
+	color: #FADCB3;
+	background-color: #B36D00;
+	border-color: #B36D00;
+}
+
+.og-wsname-color-9 {
+	color: #F3E7B3;
+	background-color: #AB8B00;
+	border-color: #AB8B00;
+}
+
+.og-wsname-color-10 {
+	color: #FFFFD4;
+	background-color: #636330;
+	border-color: #636330;
+}
+
+.og-wsname-color-11 {
+	color: #F9FFEF;
+	background-color: #64992C;
+	border-color: #64992C;
+}
+
+.og-wsname-color-12 {
+	color: #F1F5EC;
+	background-color: #006633;
+	border-color: #006633;
+}
+
+.og-wsname-color-13 {
+	color: #5A6986;
+	background-color: #DEE5F2;
+	border-color: #5A6986;
+}
+
+.og-wsname-color-14 {
+	color: #206CE1;
+	background-color: #E0ECFF;
+	border-color: #206CE1;
+}
+
+.og-wsname-color-15 {
+	color: #0000CC;
+	background-color: #DFE2FF;
+	border-color: #0000CC;
+}
+
+.og-wsname-color-16 {
+	color: #5229A3;
+	background-color: #E0D5F9;
+	border-color: #5229A3;
+}
+
+.og-wsname-color-17 {
+	color: #854F61;
+	background-color: #FDE9F4;
+	border-color: #854F61;
+}
+
+.og-wsname-color-18 {
+	color: #CC0000;
+	background-color: #FFE3E3;
+	border-color: #CC0000;
+}
+
+.og-wsname-color-19 {
+	color: #EC7000;
+	background-color: #FFF0E1;
+	border-color: #EC7000;
+}
+
+.og-wsname-color-20 {
+	color: #B36D00;
+	background-color: #FADCB3;
+	border-color: #B36D00;
+}
+
+.og-wsname-color-21 {
+	color: #AB8B00;
+	background-color: #F3E7B3;
+	border-color: #AB8B00;
+}
+
+.og-wsname-color-22 {
+	color: #636330;
+	background-color: #FFFFD4;
+	border-color: #636330;
+}
+
+.og-wsname-color-23 {
+	color: #64992C;
+	background-color: #F9FFEF;
+	border-color: #64992C;
+}
+
+.og-wsname-color-24 {
+	color: #006633;
+	background-color: #F1F5EC;
+	border-color: #006633;
+}
+
+
+/** wschooser **/
+.og-wschooser th {
+	background-color: transparent;
+	font-weight: bold;
+}
+.og-wschooser table * {
+	padding: 5px;
+}
+.og-wschooser table {
+	width: 400px;
+}
+.og-wschooser select {
+	width: 100%;
+	height: 200px;
+}
+.og-wschooser .wschooser-from {
+	width: 49%;
+}
+.og-wschooser .wschooser-to {
+	width: 49%;
+}
+.og-wschooser .wschooser-buttons {
+	width: 2%;
+	vertical-align: middle;
+	text-align: center;
+}
+/** /wschooser **/
+
+/** tasks **/
+.og-tasks-container {
+	background-color: white;
+	border: 1px solid #AAA;
+}
+.og-tasks-actions {
+	font-weight: bolder;
+	color: white;
+	background-color: #717FA1;
+	padding: 5px;
+  	border-color: #455678;
+}
+.og-task-table-filter {
+	wdth: 100%;
+}
+.og-task-table-filter > tbody > tr > td {
+	padding-left: 10px;
+	white-space: nowrap;
+}
+
+.og-timeslot-work-started{
+	line-height:22px;
+	padding-left:28px;
+	background-image: url(../../images/22x22/chronometer.png) !important;
+	background-repeat:no-repeat;
+	font-weight:bold;
+}
+.og-timeslot-work-paused{
+	line-height:22px;
+	padding-left:28px;
+	background-image: url(../../images/22x22/chronometer_pause.png) !important;
+	background-repeat:no-repeat;
+	font-weight:bold;
+}
+.scrollable-menu {
+	max-height: 300px;
+	overflow: auto;
+}
+/** /tasks **/
+
+
+
+.og-ico {
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+#x-form-el-remember {
+	width: 130px !important;
+}
+
+
+.adminMainBlock th {
+	padding:2px 5px;
+	font-size:100%;
+	font-weight:bolder;
+	background-color:#D7E5F5;
+}
+.adminMainBlock .altRow {
+	background-color:#F4F8F9;
+}
+
+.list-action {
+	margin-left: 6px;
+}
+
+
+/* Workspace selector ------------------------*/
+.og-ws-selector-header{
+	background:#FFFFFF url(../../extjs/images/default/form/text-bg.gif) repeat-x scroll 0 0;
+	height:20px;
+	border:1px solid #B5B8C8;
+	min-width:120px;
+}
+
+.og-ws-selector-header:hover{
+	border:1px solid deepskyblue;
+}
+
+.og-ws-selector-input{
+	cursor:pointer;
+	padding-right:10px !important;
+}
+
+.og-ws-selector-arrow:hover{
+	background-position:-17px 0;
+}
+
+
+select.select_milestone, select.select_task_list, select.select_message {
+  width: 250px;
+}
+
+.options {
+  margin: 10px 0 0 0;
+}
+
+.iemenulist {
+  background:transparent;
+  border:0 none;
+  height: expression( this.scrollHeight > 300 ? "300px" : "auto" ); 
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.container-div{
+	padding-left:2px; 
+	padding-top:0px;
+	padding-bottom:4px;
+	height:52px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	
+}
+.company-name{
+	background:#F9F9FC none repeat scroll 0 0;
+	border:1px solid #DDDDDD;
+	cursor: pointer;
+	clear: both;
+}
+.container-div label
+{
+	height:44px;
+	width: 35px;
+	padding-left:56px;
+	padding-top:6px;
+	width:150px;
+	cursor: pointer;
+}
+.user-name{
+	background:#fafafa none repeat scroll 0 0;
+	border:1px solid #eee;
+	cursor: pointer;
+}
+.checked-user
+{
+	background: #fea;
+	border:1px solid #f84;
+	cursor: pointer;
+}
+.checked-user-check
+{
+	background:  url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0px -1408px !important;
+	margin-left: 180px;
+	margin-top:-50px;
+	width: 16px;
+	height: 16px;
+}
+
+.rolling-over
+{
+	background-color:#d9d9Ff;
+	border:1px solid #99f;
+	cursor: pointer;
+	
+}
+.company-users {
+	margin-top:0;
+	cursor: pointer;
+}
+.company-users .user-name{
+	margin-left: 10px;
+	width: 200px;
+	float: left;
+	cursor: pointer;
+	overflow: hidden;
+}
+.company-users .checked-user
+{
+	margin-left: 10px;
+	width: 200px;
+	float: left;
+	cursor: pointer;
+	overflow: hidden;
+	
+}
+.contextHelpStyle .contextualHelp{
+	margin: 15px;
+}
+.ico-read{
+	background: transparent url("../../images/8x8/read.png") no-repeat scroll 0px 5px;
+	cursor: pointer;
+}
+.ico-unread{
+	background: transparent url("../../images/8x8/unread.png") no-repeat scroll 0px 5px;
+	cursor: pointer;
+}
+.outter-quick-add-file {
+	width: 100%;
+	height: 100%;
+	background-color: #eef;
+	overflow: auto;
+}
+.inner-quick-add-file {
+	margin: 15px;
+}
+.pagination-user{
+	height:20px;
+	width:20px;
+	float:left;
+	padding-left:5px;
+	 
+}
+.pagination-user-active{
+	height:20px;
+	width:20px;
+	float:left;
+	padding-left:5px;
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -3981px !important;
+	font-weight:bold;
+}
+
+.og-double-list-sel {
+	width: 200px;
+}
+
+.og-double-list-sel-btns {
+	vertical-align: middle;
+}

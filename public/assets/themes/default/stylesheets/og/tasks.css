@@ -1,0 +1,174 @@
+.tasksPanelContextHelp .contextualHelp {
+	margin: 15px;
+}
+
+.timePanelContextHelp .contextualHelp {
+	margin-bottom: 7px;
+}
+
+.ogTasksGroupHeader{
+	border-bottom: 2px solid #CCC;
+	padding-top: 10px;
+	margin-top: 10px;
+	padding-bottom:1px;
+	max-width:1000px;
+}
+
+.ogTasksGroupHeaderName {
+	font-weight:bold;
+	color: #888;
+	font-size:130%;
+}
+
+.ogTasksGroup {
+	max-width:1000px;
+}
+
+.og-task-expander {
+	padding: 0 2px;
+	width: 16px;
+	height: 18px;
+	cursor: pointer;
+}
+
+.ogTasksTaskTable {
+	width:100%;
+	height:22px;
+	line-height:22px;
+	background-color:#F8FAFF;
+	border:1px solid #DDD;
+}
+
+.ogTasksTaskTableSelected {
+	width:100%;
+	height:22px;
+	line-height:22px;
+	background-color:#FDFFCC;
+	border:1px solid #DDD;
+}
+
+.ogTaskActions {
+	visibility: hidden;
+	margin-top:2px;
+	padding-right:3px;
+	padding-left:3px;
+}
+
+.ogTasksAddTask {
+	width:100%;
+	height:22px;
+	line-height:22px;
+	background-color:white;
+	padding-left:18px;
+	background-repeat:no-repeat;
+	background-position: 0 2px;
+}
+
+.ogTasksAddTaskForm{
+	background-color:#F3F4FF;
+	border:1px solid #DDD;
+	padding:7px;
+}
+
+.ogTasksIcon {
+	background-repeat:no-repeat;
+	background-position: 0 2px;
+}
+
+.ogTasksCheckbox {
+	line-height:18px;
+	padding-top:2px;
+	padding-left:4px;
+}
+
+.ogTasksTimeTd{
+	background-color:#DAE3F0;
+	border-left:1px solid #DDD;
+	width:1px;
+	color:#7289CF;
+}
+
+.ogTasksActiveTimeTd{
+	background-color:#FF9088;
+	border-left:1px solid #DDD;
+	width:1px;
+	color:white;
+}
+
+.ogTasksPausedTimeTd{
+	background-color:#FFE79F;
+	border-left:1px solid #DDD;
+	width:1px;
+	color:#B07500;
+}
+
+.ogTasksTimeClock{
+	background-repeat:no-repeat;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	margin:3px 2px;
+}
+
+.ogTasksGroupAction{
+	background-repeat:no-repeat;
+	display:inline;
+	padding-top:3px;
+	padding-left:18px;
+}
+
+.ogTasksPanelActionTable {
+	line-height:18px;
+}
+
+.task-prio-low {
+	background-color:white;
+}
+
+.task-prio-mid {
+	background-color:#DAE3F0;
+}
+
+.task-prio-high {
+	background-color:#FF9088;
+}
+
+/* <RX dragdrop> */
+
+.RX__tasks_og-drag 	{
+	cursor: move;
+	position: absolute;
+	margin-left: -10px;
+	width: 10px;
+	min-height: 24px;
+	height: auto;
+	background: url(../../images/rx/grid_drag.png) repeat center top;
+	visibility: hidden;
+}
+
+.RX__tasks_dd-proxy	{
+	border: 1px solid gray;
+	z-index: 2000;
+	padding:2px 12px 2px 22px;
+	cursor: move !important;
+	width:auto;
+	height:auto;
+	background: rgb(218, 227, 240) url(../../images/rx/grid_drag.png) repeat-y left top;
+}
+
+.RX__tasks_dd-over {
+	background-color: #f0f8e8; border: 1px solid olive !important;
+}
+
+/*.RX__tasks_dd-over .RX__tasks_og-drag {
+	visibility: visible !important;
+	x-background: url(../../images/rx/Forward.png) no-repeat center center;
+}*/
+
+.RX__tasks_row {
+	position: static;
+}
+
+.ogTasksGroup {
+	border: 1px solid white;
+}

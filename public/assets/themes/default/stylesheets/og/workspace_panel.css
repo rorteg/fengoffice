@@ -1,0 +1,128 @@
+.ext-el-mask {
+	background:#dadadb;
+}
+.ico-workspace, .ico-ws, .ico-project {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4223px !important;
+}
+.ico-workspace, .ico-ws, .ico-project, .ico-project-tb {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4220px !important;
+}
+.ico-workspaces {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -4223px !important;
+}
+.ico-workspace-add {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -66px !important;
+}
+.ico-workspace-del {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1540px !important;
+}
+.ico-workspace-edit {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2816px !important;
+}
+.ico-workspace-refresh {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -2925px !important;
+}
+.ico-color0, .ico-color1, .ico-color2, .ico-color3, .ico-color4, .ico-color5, .ico-color6, .ico-color7, .ico-color8, .ico-color9, .ico-color10, .ico-color11, .ico-color12, .ico-color13, .ico-color14, .ico-color15, .ico-color16, .ico-color17, .ico-color18, .ico-color19, .ico-color20, .ico-color21, .ico-color22, .ico-color23, .ico-color24 {
+	height: 16px;
+	background-image: none !important;
+}
+.ico-color0 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -770px !important;
+}
+.ico-color1 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -792px !important;
+}
+.ico-color2 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1034px !important;
+}
+.ico-color3 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1166px !important;
+}
+.ico-color4 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1188px !important;
+}
+.ico-color5 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1210px !important;
+}
+.ico-color6 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1232px !important;
+}
+.ico-color7 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1254px !important;
+}
+.ico-color8 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1276px !important;
+}
+.ico-color9 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1298px !important;
+}
+.ico-color10 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -814px !important;
+}
+.ico-color11 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -836px !important;
+}
+.ico-color12 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -858px !important;
+}
+.ico-color13 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -880px !important;
+}
+.ico-color14 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -902px !important;
+}
+.ico-color15 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -924px !important;
+}
+.ico-color16 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -946px !important;
+}
+.ico-color17 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -968px !important;
+}
+.ico-color18 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -990px !important;
+}
+.ico-color19 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1012px !important;
+}
+.ico-color20 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1056px !important;
+}
+.ico-color21 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1078px !important;
+}
+.ico-color22 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1100px !important;
+}
+.ico-color23 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1122px !important;
+}
+.ico-color24 {
+	background: transparent url(../../images/16x16/all_16_16_sprite.png) no-repeat scroll 0 -1144px !important;
+}
+
+
+
+
+
+
+.x-tree {
+	background:#fff !important;
+}
+.workspace-item {
+	border:1px solid #fff;
+	margin:3px;
+}
+.workspace-item .x-tree-ec-icon {
+	display:none;
+}
+.x-tree-selected {
+	border:1px dotted #a3bae9;
+	background:#DFE8F6;
+}
+.x-tree-node .x-tree-selected a span{
+	background:transparent;
+	color:#15428b;
+	font-weight:bold;
+}
