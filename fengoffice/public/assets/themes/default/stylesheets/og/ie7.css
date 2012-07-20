@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+.abm-members-name {
+	float: left;
+}
+
+input[type=checkbox] {
+	border: 0px none;
+	width: 13px !important;
+	height: 13px;
+}
+
+.single-tree-container .x-panel-body.x-panel-body-noheader.x-column-layout-ct {
+	overflow: hidden !important;
+}
+
+.x-tab-strip-active  {
+	/* background: yellow;*/
+	border-bottom: 2px solid #F0F0F0;
+	margin-bottom: -2px !important
+}
+
+
+.widget {
+	/* Shadow for ie7 */
+	#zoom: 1;
+	#filter: progid:DXImageTransform.Microsoft.Shadow(color='#CCCCCC', Direction=135, Strength=6);
+}
+
+.widget-body {
+	border-left: 1px solid #FAFAFA;
+}
+
+div.user-box-actions {
+	width: 252px;
+	float: left ; 
+}
+
+input[type=checkbox] {
+	padding: 0;
+	border: 0px none;
+}
+
+#menu-panel .x-tree-node .feng-node-actions {
+	margin-top: -20px;  
+}

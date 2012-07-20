@@ -1,0 +1,243 @@
+/*--- fix width of date pickers in IE8 ---*/
+.x-date-menu {
+	width: 175px !important;
+}
+
+/*--- layout.css ---*/
+.x-layout-collapsed{
+    border:0px;
+}
+
+/*--- panel.css ---*/
+#tabs-panel .x-panel-body-noheader, .x-panel-mc .x-panel-body {
+    border-top:0px;
+}
+.x-panel-body{
+	background-color: #F0F0F0;	
+}
+
+/*--- tabs.css ---*/
+.x-tab-strip .x-tab-with-icon span.x-tab-strip-text {
+	height: 15px;
+	padding-top: 5px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.x-tab-strip-top .x-tab-right, .x-tab-strip-top .x-tab-left, .x-tab-strip-top .x-tab-strip-inner 
+{
+	background: none !important;
+}
+
+ul.x-tab-strip
+{
+	background: #fff;
+	/* padding-top: 15px; */
+	padding-top: 5px;
+}
+
+ul.x-tab-strip-top {
+	border-bottom: 0px none;
+}
+
+ul.x-tab-strip li
+{
+	background: #179136;
+	border-radius: 5px 5px 0px 0px;
+	padding: 0px 5px 0px 10px;
+	border: solid 2px #179136;
+	border-bottom: none;	
+}
+
+ul.x-tab-strip li.x-tab-strip-active
+{
+	background: #DEEFDE !important; 
+}
+
+ul.x-tab-strip li.x-tab-strip-active span.x-tab-strip-text
+{
+	color: #166029 !important;	
+}
+
+.x-tab-strip span.x-tab-strip-text{
+	color: #fff;
+}
+
+div#menu-panel div.x-panel
+{
+	margin: 6px;
+	border-radius: 5px;
+}
+
+.x-toolbar
+{
+	background: none;
+}
+
+.x-tab-strip .x-tab-with-icon span.x-tab-strip-text{background: none !important;}
+
+.x-tab-panel-header, .x-tab-panel-footer {
+	border: 0px;
+}
+.x-tab-panel-header {
+	border: 0px;
+	padding-bottom: 0px;
+}
+.x-tab-panel-body {
+    border: 0px;
+}
+
+strong{font-weight:bold;}
+
+
+.og-content-panel .x-toolbar {
+	background: #F0F0F0;
+	padding-top:5px;
+}
+
+
+
+
+.og-content-panel .x-panel-bbar .x-toolbar {
+	background: transparent;
+	border-top: 0px none;
+}
+
+div.x-panel-tbar x-panel-tbar-noheader
+{
+	border: solid 1px #eeeeee;
+}
+
+.x-tbar-page-number{
+	padding-left:3px;
+	padding-top:1px;
+	padding-bottom:1px;
+	height:15px;
+}
+
+/* Sets the width of a checkbox to 16 in a checkbox tree*/
+input.x-tree-node-cb {
+	width:16px;
+	margin-top:1px;
+	border: none ;
+	padding: 0;
+}
+.ico-none {
+	background-image: url(../../images/s.gif) !important;
+	width:1px;
+	height:1px;
+}
+
+.ext-safari .x-form-field-wrap .x-form-trigger {
+	right: auto;
+}
+
+.x-form-field-wrap {
+	width: auto !important;
+	padding-right: 17px;
+}
+
+.x-resizable-over .x-resizable-handle, .x-resizable-pinned .x-resizable-handle {
+	opacity:0.5;
+	filter: alpha(opacity = 50);
+}
+
+.member-chooser .x-tree-node-icon {
+	background: none repeat scroll 0 0 transparent;
+    height: 0;
+    width: 0;
+}
+
+.member-chooser .x-tree-node  .x-tree-selected {
+	background: none ;
+	border: none ;
+}
+.member-chooser .x-tree-node  .x-tree-selected a span {
+	font-weight: normal;
+	color: inherit ;
+}
+
+.x-menu{
+	width: auto !important;
+}
+
+.x-menu.context-menu  {
+	background: #E7EDF8 ;
+}
+
+
+.x-accordion-hd {
+    color: #fff;
+    font-weight: bold ;
+	background: #179136;
+	border-radius: 3px 3px 0 0;
+}
+
+.x-tree-node .x-tree-selected {
+    background-color: #EEEEEE;
+    border-left: 0 none;
+	border-right: 0 none;
+}
+
+div#menu-panel .x-panel-tbar-noheader .x-toolbar, div#menu-panel .x-panel-mc .x-panel-tbar .x-toolbar
+{
+	border: none !important;
+}
+
+#menu-panel .x-tree-node-icon {
+     background: url("../../images/16x16/wscolors/color11.png") no-repeat  transparent ;  
+}
+
+
+#menu-panel .x-tree-node-icon.root {
+    background-image: url(../../extjs/images/default/tree/folder-open.gif );
+}
+
+
+#menu-panel .x-panel-collapsed .x-accordion-hd .x-tool-toggle {
+    background-position: 0 -45px;
+}
+
+
+.ext-strict .ext-safari .x-small-editor .x-form-text {
+	height: 18px!important;
+}
+
+
+#menu-panel .x-tree-node .feng-node-actions {
+    float: right;
+    position: relative ;
+    right:0 ;
+    top: 0 ;
+    margin-right: 5px;
+   
+    display: none ;
+}
+
+.ext-gecko #menu-panel .x-tree-node .feng-node-actions {
+	margin-top: -20px;  
+}
+
+.ext-safari #menu-panel .x-tree-node .feng-node-actions  {
+    /* margin-top: 0 ; */  
+}
+
+#menu-panel .x-tree-selected .feng-node-actions {
+	display:block ;
+}
+
+.x-tree-node .feng-node-actions a {
+    /*margin-top: -20px; */
+}
+
+
+.member-chooser-container .feng-node-actions {
+	display:none ;
+}
+
+.x-tree-node .feng-node-actions a {
+	/* padding: 8px ; */ 
+	width: 16px !important;
+	height: 18px !important;
+	display: block ;
+}

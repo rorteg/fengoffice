@@ -1,0 +1,108 @@
+.report_selected_menu {
+	background-image: url(../../images/layout/selected_report_menu.png);
+	background-repeat: no-repeat;
+	padding-left: 12px;
+	height:40px;
+	font-weight:bold;
+	font-size:120%;
+	padding-top:5px;
+}
+
+.report_unselected_menu {
+	padding-left: 12px;
+	height:28px;
+	font-weight:bold;
+	font-size:100%;
+	padding-top:3px;
+}
+
+.inner_report_menu_div {
+	padding:10px;
+}
+
+.report_header {
+	font-size:120%;
+	font-weight:bold;
+	border-bottom:1px solid #AAAAAA;
+	color: #666666;
+}
+
+.reportConditionDD {
+	min-width:120px;
+}
+
+.report_menu_item {
+	width: 130px;
+	padding: 1px 0 0 25px;
+	background-repeat: no-repeat;
+}
+
+
+/* timeslots report */
+
+.timeslot-report-container {
+	width: 750px;
+	margin-top: 20px;
+}
+
+.report-group-heading-0 {
+	border-bottom:2px solid #888;
+	font-size:150%;
+	font-weight:bold;
+	margin-top: 10px;
+}
+.report-group-heading-1 {
+	border-bottom:2px solid #888;
+	font-size:125%;
+	font-weight:bold;
+	margin-top: 8px;
+}
+.report-group-heading-2, .report-group-heading-all {
+	border-bottom:2px solid #888;
+	font-size:110%;
+	font-weight:bold;
+	margin-top: 8px;
+}
+
+.report-table-heading {
+	border-bottom:1px solid #666666;
+}
+.report-table-heading th {
+	padding: 4px;
+	font-size: 11px;
+}
+
+.report-table {
+	width: 100%;
+}
+
+.report-table td {
+	padding: 4px;
+	font-size: 11px;
+}
+.report-table td.date {
+	width: 70px;
+}
+.report-table td.name {
+	max-width: 180px;
+	width: 180px;
+}
+.report-table td.person {
+	min-width: 120px;
+	max-width: 120px;
+	width: 120px;
+}
+.report-table td.time {
+	min-width: 133px;
+	max-width: 133px;
+	width: 133px;
+}
+
+.report-table tr.alt-row {
+	background-color: #f2f2f2;
+}
+
+.report-group-footer {
+	padding:4px;
+	border-top:2px solid #888;
+}

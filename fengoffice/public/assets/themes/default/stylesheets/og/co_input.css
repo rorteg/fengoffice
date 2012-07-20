@@ -1,0 +1,74 @@
+.coInputHeader {
+    padding: 5px 15px;
+	/*border-bottom: 1px solid #99BBE8;*/
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom:5px;
+	/*background: #D0DEF0;*/
+	background: #F0F0F0;
+	color:#666;
+}
+
+.coInputSeparator {
+	background-image: url(../../images/layout/shadow.png);
+	height: 6px;
+	width:100%;
+}
+
+
+.coInputHeaderUpperRow {
+	margin: 3px;
+	/*border-bottom: 2px solid #99BBE8;*/
+	border-bottom: 2px solid #CCCCCC;
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.coInputTitle {
+  	font-size: 150%;
+  	font-weight: bolder;
+  	display: inline;
+}
+
+.coInputMainBlock {
+	padding: 5px 15px;
+	background-color:white;
+}
+
+.coInputTags {
+	position:absolute;
+	top:-3px;
+	right:0px;
+}
+
+
+.coInputLinkedObjects {
+	display:table-cell;
+	float:right;
+	width: 200px;
+	border: solid 1px;
+	padding: 3px;
+	height: 100%;
+	margin-left:10px;
+}
+
+
+/* Messages */
+
+.message .coInputHeader {
+  	/*color: #99BBE8;*/
+}
+
+.event .coInputHeader {
+    text-align: left;
+  	/*color: #99BBE8;*/
+}
+
+.event .coInputMainBlock {
+	padding: 5px 15px;
+	background-color:white;
+	text-align:left;
+}
+
+.custom-btn-wrapper .x-btn-left, .custom-btn-wrapper .x-btn-right, .custom-btn-wrapper .x-btn-center{
+	background: none  !important;
+}

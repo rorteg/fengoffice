@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+
+.widget {
+	/* Shadow for ie7 */
+	#zoom: 1;
+	#filter: progid:DXImageTransform.Microsoft.Shadow(color='#CCCCCC', Direction=135, Strength=6);
+}
+
+.widget {
+	/* Shadow for ie7 */
+	#zoom: 1;
+	#filter: progid:DXImageTransform.Microsoft.Shadow(color='#CCCCCC', Direction=135, Strength=6);
+}
+
+.widget-body {
+	border-left: 1px solid #FAFAFA;
+}
+
+
+div.user-box-actions {
+	width: 252px;
+	float: left ; 
+}
+
+input[type=checkbox] {
+	padding: 0;
+	border: 0px none;
+}
