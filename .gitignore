@@ -1,0 +1,5 @@
+fengoffice/cache/*
+fengoffice/config/*
+fengoffice/public/files/*
+fengoffice/upload/*
+fengoffice/tmp/*
